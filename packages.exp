@@ -2,5 +2,5 @@
 spawn sudo apt-get install golang-go
 expect "continue?"
 send "y\n"
-#comment
+#comment2
 interact
