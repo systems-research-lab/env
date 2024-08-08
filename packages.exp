@@ -1,0 +1,5 @@
+#!/usr/bin/expect
+spawn sudo apt-get install golang-go
+expect "continue?"
+send "y\n"
+interact
