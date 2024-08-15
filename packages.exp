@@ -1,6 +1,12 @@
 #!/usr/bin/expect
-spawn sudo apt-get install golang-go
-expect "continue?"
-send "y\n"
+#spawn sudo apt-get install golang-go
+#expect "continue?"
+#send "y\n"
 #comment2
+
+spawn sudo add-apt-repository ppa:longsleep/golang-backports
+expect "continue?"
+send "\r"
+spawn sudo apt update
+spawn sudo apt install golang-go
 interact
