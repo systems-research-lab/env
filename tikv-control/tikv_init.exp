@@ -1,0 +1,1 @@
+ssh ssh -o StrictHostKeyChecking=no -i .ssh/id_rsa ubuntu@199.94.61.213
