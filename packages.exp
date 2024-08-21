@@ -7,6 +7,5 @@
 spawn sudo add-apt-repository ppa:longsleep/golang-backports
 expect "continue?"
 send "\r"
-spawn sudo apt update
 spawn sudo apt install golang-go
 interact
