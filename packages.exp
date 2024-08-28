@@ -2,4 +2,4 @@
 spawn sudo apt  install golang-go
 expect "continue?"
 send -- "Y\r"
-expect eof
+#expect eof
