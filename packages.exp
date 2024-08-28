@@ -1,5 +1,5 @@
 #!/usr/bin/expect
-spawn sudo add-apt-repository ppa:longsleep/golang-backports
+spawn sudo apt  install golang-go
 expect "continue?"
-echo
-#spawn sudo apt update
+send -- "Y\r"
+expect eof
