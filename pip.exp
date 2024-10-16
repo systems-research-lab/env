@@ -1,0 +1,6 @@
+#!/usr/bin/expect
+set timeout -1
+#spawn sudo sudo apt install python3-pip
+#expect "continue?"
+send -- "Y\r"
+expect eof
